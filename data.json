@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "성 비토관",
+    "abbr": "B1",
+    "departments": ["컴퓨터소프트웨어학부", "인공지능학과"],
+    "facilities": ["매점", "과사무실"],
+    "center_coords": { "lat": 35.9123, "lng": 128.8078 },
+    "entrance_coords": { "lat": 35.9125, "lng": 128.8080 }
+  },
+  {
+    "id": 2,
+    "name": "성 알베르투스관",
+    "abbr": "A1",
+    "departments": ["전자공학과"],
+    "facilities": ["ATM"],
+    "center_coords": { "lat": 35.9135, "lng": 128.8085 },
+    "entrance_coords": { "lat": 35.9137, "lng": 128.8087 }
+  }
+]
