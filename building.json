@@ -1,0 +1,613 @@
+[
+  { 
+    "id": "A01",
+    "name": "본관",
+    "name_en": "Central Administration",
+    "abbr": "A01",
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "A02", 
+    "name": "교양관", 
+    "name_en": "St.Thomas Aquinas Hall", 
+    "abbr": "A02", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "A03", 
+    "name": "종합민원센터", 
+    "name_en": "Student Service Center", 
+    "abbr": "A03", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { "id": "A04", 
+  "name": "팔각정", 
+  "name_en": "Octagonal Pavilion", 
+  "abbr": "A04", 
+  "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+  "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+  "departments": [], 
+  "facilities": [] 
+  },
+  { "id": "A06", 
+  "name": "제1학생회관", 
+  "name_en": "Student Union 1", 
+  "abbr": "A06", 
+  "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+  "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+  "departments": [], 
+  "facilities": [] 
+  },
+  { 
+    "id": "A07", 
+    "name": "제2학생회관", 
+    "name_en": "Student Union 2, Cafeteria 1", 
+    "abbr": "A07", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": ["제1식당"] 
+  },
+  { 
+    "id": "A08", 
+    "name": "중앙도서관", 
+    "name_en": "Paul Ri Library (Central Library)", 
+    "abbr": "A08", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "A09", 
+    "name": "종합강의동", 
+    "name_en": "John Sye Hall", 
+    "abbr": "A09", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { "id": "A10", 
+  "name": "사육장", 
+  "name_en": "Animal Breeding House", 
+  "abbr": "A10", 
+  "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+  "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+  "departments": [], 
+  "facilities": [] 
+  },
+  {
+    "id": "A11", 
+    "name": "제2식당", 
+    "name_en": "Cafeteria 2", 
+    "abbr": "A11", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": ["제2식당"] 
+  },
+  { "id": "A13", 
+  "name": "영선실", 
+  "name_en": "Carpenter Room", 
+  "abbr": "A13", 
+  "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+  "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+  "departments": [], 
+  "facilities": [] 
+  },
+
+  { 
+    "id": "B01", 
+    "name": "취창업관", 
+    "name_en": "Thaddeus Cho Hall (Employment Building)", 
+    "abbr": "B01", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "B02", 
+    "name": "제르멩관", 
+    "name_en": "Germain Hall", 
+    "abbr": "B02", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "B03", 
+    "name": "성당(교목처)", 
+    "name_en": "St. Florian Chapel", 
+    "abbr": "B03", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": ["교목처"], 
+    "facilities": ["성당"] 
+  },
+  { 
+    "id": "B04", 
+    "name": "국제관", 
+    "name_en": "International Hall", 
+    "abbr": "B04", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "B05", 
+    "name": "학생군사교육단", 
+    "name_en": "Reserve Officers' Training Corp", 
+    "abbr": "B05", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": ["ROTC"], 
+    "facilities": [] 
+  },
+  { 
+    "id": "B06", 
+    "name": "박물관", 
+    "name_en": "Museum", 
+    "abbr": "B06", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "B07", 
+    "name": "강당", 
+    "name_en": "Ignatius Cheon Hall", 
+    "abbr": "B07", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "B08", 
+    "name": "산학협력관", 
+    "name_en": "John Choi Hall", 
+    "abbr": "B08", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+
+  { 
+    "id": "C01", 
+    "name": "성토마스모어관", 
+    "name_en": "St. Thomas More Hall", 
+    "abbr": "C01", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "C02", 
+    "name": "성라이문도관", 
+    "name_en": "St. Raymund Hall", 
+    "abbr": "C02", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "C03", 
+    "name": "체육관", 
+    "name_en": "Gymnasium", 
+    "abbr": "C03", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "C04", 
+    "name": "성비토관", 
+    "name_en": "St. Vitus Hall", 
+    "abbr": "C04", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "C05", 
+    "name": "사제관", 
+    "name_en": "Rectory", 
+    "abbr": "C05", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "C06", 
+    "name": "신학관", 
+    "name_en": "Seminary", 
+    "abbr": "C06", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "C07", 
+    "name": "성예로니모관", 
+    "name_en": "St. Jerome Hall", 
+    "abbr": "C07", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "C08", 
+    "name": "창고", 
+    "name_en": "Warehouse", 
+    "abbr": "C08", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "C09", 
+    "name": "성요한보스코관", 
+    "name_en": "St. John Bosco Hall", 
+    "abbr": "C09", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "C10", 
+    "name": "제3학생식당", 
+    "name_en": "Cafeteria3", 
+    "abbr": "C10", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": ["제3식당"] 
+  },
+  { 
+    "id": "C11", 
+    "name": "미래인재관", 
+    "name_en": "Human Resorces Education Center", 
+    "abbr": "C11", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "C12", 
+    "name": "성야고보관", 
+    "name_en": "St. James Hall", 
+    "abbr": "C12", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "C13", 
+    "name": "성마태오관", 
+    "name_en": "St. Matthew Hall", 
+    "abbr": "C13", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+
+
+  { 
+    "id": "D01", 
+    "name": "창업보육센터", 
+    "name_en": "Business Incubator Center", 
+    "abbr": "D01", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D02", 
+    "name": "공학관,제2산학협력관", 
+    "name_en": "St. Matthias Hall (Industry Academic Cooperation Hall 2)", 
+    "abbr": "D02", 
+    "center_coords": { "lat": 35.9123, "lng": 128.8078 }, 
+    "entrance_coords": { "lat": 35.9125, "lng": 128.8080 }, 
+    "departments": ["컴퓨터소프트웨어학부", "인공지능학과"], 
+    "facilities": ["매점", "과사무실"] 
+  },
+  { 
+    "id": "D03", 
+    "name": "해양바이오산업연구센터", 
+    "name_en": "Marine Biotechnology Research", 
+    "abbr": "D03", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D04", 
+    "name": "중앙기기센터", 
+    "name_en": "Research Facilities Center", 
+    "abbr": "D04", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D05", 
+    "name": "성도미니코관", 
+    "name_en": "St. Dominic Hall", 
+    "abbr": "D05", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D06", 
+    "name": "성이시도르관", 
+    "name_en": "St. Isidore Hall", 
+    "abbr": "D06", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D07", 
+    "name": "제1약학관", 
+    "name_en": "St. Damian Hall (College of Pharmacy 1)", 
+    "abbr": "D07", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": ["약학부"], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D08", 
+    "name": "정보통신관", 
+    "name_en": "Information Technology Center", 
+    "abbr": "D08", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D09", 
+    "name": "성토마스관", 
+    "name_en": "St. Thomas Hall", 
+    "abbr": "D09", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D10", 
+    "name": "제2약학관", 
+    "name_en": "St. Cosmas Hall (College of Pharmacy 2)", 
+    "abbr": "D10", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": ["약학부"], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D11", 
+    "name": "성마르타관", 
+    "name_en": "St. Martha Hall", 
+    "abbr": "D11", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D12", 
+    "name": "미술실습동", 
+    "name_en": "Fine Arts Laboratory", 
+    "abbr": "D12", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D15", 
+    "name": "성카타리나관", 
+    "name_en": "St. Catherine Hall", 
+    "abbr": "D15", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D16", 
+    "name": "아마레갤러리", 
+    "name_en": "Amare Gallery, Cafeteria 4", 
+    "abbr": "D16", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": ["제4식당", "갤러리"] 
+  },
+  { 
+    "id": "D17", 
+    "name": "성체칠리아관", 
+    "name_en": "St. Cecilia Hall", 
+    "abbr": "D17", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D18", 
+    "name": "성안나관", 
+    "name_en": "St. Anna Hall", 
+    "abbr": "D18", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "D19", 
+    "name": "용해로실", 
+    "name_en": "Smelting Laboratory", 
+    "abbr": "D19", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+
+  { 
+    "id": "E01", 
+    "name": "성바오로문화관", 
+    "name_en": "St. Paul Hall", 
+    "abbr": "E01", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "E03", 
+    "name": "기숙사 아마레관", 
+    "name_en": "Amare Hall (Dormitory)", 
+    "abbr": "E03", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": ["기숙사"] 
+  },
+  { 
+    "id": "E04", 
+    "name": "기숙사 행정동", 
+    "name_en": "Dormitory Administration", 
+    "abbr": "E04", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "E05", 
+    "name": "기숙사 예지관", 
+    "name_en": "Wisdom Hall (Dormitory)", 
+    "abbr": "E05", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": ["기숙사"] 
+  },
+  { 
+    "id": "E06", 
+    "name": "기숙사 세르비레관", 
+    "name_en": "Servire Hall (Dormitory)", 
+    "abbr": "E06", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": ["기숙사"] 
+  },
+  { 
+    "id": "E07", 
+    "name": "기숙사 효성관", 
+    "name_en": "Morning Star Hall (Dormitory)", 
+    "abbr": "E07", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": ["기숙사"] 
+  },
+  { 
+    "id": "E08", 
+    "name": "기숙사 성김대건관", 
+    "name_en": "St. Andrew Kim Dae-gun Hall (Dormitory)", 
+    "abbr": "E08", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": ["기숙사"] 
+  },
+  { 
+    "id": "E09", 
+    "name": "기숙사 다솜관", 
+    "name_en": "Charity Hall (Dormitory)", 
+    "abbr": "E09", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": ["기숙사"] 
+  },
+  { 
+    "id": "E10", 
+    "name": "기숙사 참인재관", 
+    "name_en": "HCC Hall (Dormitory)", 
+    "abbr": "E10", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": ["기숙사"] 
+  },
+  { 
+    "id": "E11", 
+    "name": "성이윤일관, 입학처", 
+    "name_en": "St. Yi Yun-il John Hall, Admissions Center", 
+    "abbr": "E11", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": ["입학처"], 
+    "facilities": [] 
+  },
+  { 
+    "id": "E12", 
+    "name": "대가빌라1동", 
+    "name_en": "Christopher’s House", 
+    "abbr": "E12", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  },
+  { 
+    "id": "E31", 
+    "name": "대가빌라2동", 
+    "name_en": "Clarion House", 
+    "abbr": "E31", 
+    "center_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
+    "departments": [], 
+    "facilities": [] 
+  }
+]
