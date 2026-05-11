@@ -9,12 +9,15 @@ const map = new kakao.maps.Map(container, options);
 // 2. 데이터 불러오기 및 검색 기능
 let campusData = [];
 
-fetch('data.json')
+// 기존: fetch('data.json')
+// 변경: 백엔드 API 서버 주소에서 데이터 가져오기
+fetch('http://localhost:3000/api/campus')
     .then(res => res.json())
     .then(data => {
         campusData = data;
-        renderMarkers(data); // 초기 마커 표시
-    });
+        displayMarkers(campusData);
+    })
+    .catch(err => console.error("서버 연결 실패:", err));
 
 // 3. 검색 필터링 로직
 document.getElementById('search-input').addEventListener('input', (e) => {
