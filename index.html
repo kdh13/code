@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>대가대 스마트 캠퍼스 가이드</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=823a8d73ff17c8f471d33424692f31c2&libraries=services"></script>
 </head>
 <body>
+    <!-- 검색 입력창과 결과를 표시하는 사이드 패널 -->
     <div id="search-container">
-        <input type="text" id="search-input" placeholder="건물명, 학과, 시설 검색...">
+        <!-- 검색어 입력박스와 버튼을 한 줄로 배치 -->
+        <div id="search-box">
+            <input type="text" id="search-input" placeholder="건물명, 학과, 시설 검색...">
+            <button id="search-button" type="button">검색</button>
+        </div>
+        <!-- 검색 결과 항목을 렌더링할 리스트 -->
         <ul id="search-results"></ul>
     </div>
     
+    <!-- 카카오 지도를 렌더링할 요소 -->
     <div id="map"></div>
 
+    <!-- 카카오 지도 SDK를 로드 -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=49b3f4678edb6d8ed52cb800f0a527c5"></script>
+    <!-- 사용자 인터랙션 및 검색 로직을 담은 스크립트 -->
     <script src="app.js"></script>
 </body>
 </html>

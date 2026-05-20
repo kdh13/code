@@ -16,8 +16,8 @@
     "abbr": "A02", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
-    "facilities": [] 
+    "departments": ["프란치스코칼리지", "자율전공학부"], 
+    "facilities": ["CU편의점", "글쓰기말하기센터"] 
   },
   { 
     "id": "A03", 
@@ -65,7 +65,7 @@
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
     "departments": [], 
-    "facilities": [] 
+    "facilities": ["중앙도서관", "중앙도서관식당"] 
   },
   { 
     "id": "A09", 
@@ -74,7 +74,7 @@
     "abbr": "A09", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
+    "departments": ["언어청각치료학과", "안경광학과", "보건의료경영학과", "바이오메디대학자율학부", "물리치료학과", "건축공학과", "배터리공학과", "미디어영상광고홍보학부"], 
     "facilities": [] 
   },
   { "id": "A10", 
@@ -113,8 +113,8 @@
     "abbr": "B01", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
-    "facilities": [] 
+    "departments": ["전가공학과", "경찰탐정학과", "복지서비스학과", "부동산경영학과", "상담심리학과", "창업경영학과", "바이오융합학과", "라이프케어학부"], 
+    "facilities": ["카페블루포트"] 
   },
   { 
     "id": "B02", 
@@ -123,7 +123,7 @@
     "abbr": "B02", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
+    "departments": ["신학부"], 
     "facilities": [] 
   },
   { 
@@ -183,8 +183,8 @@
     "abbr": "B08", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
-    "facilities": [] 
+    "departments": ["창의융합대학"], 
+    "facilities": ["착한편의점"] 
   },
 
   { 
@@ -195,7 +195,7 @@
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
     "departments": [], 
-    "facilities": [] 
+    "facilities": ["행정법무학과", "경찰행정학과"] 
   },
   { 
     "id": "C02", 
@@ -215,7 +215,7 @@
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
     "departments": [], 
-    "facilities": [] 
+    "facilities": ["체육관"] 
   },
   { 
     "id": "C04", 
@@ -254,7 +254,7 @@
     "abbr": "C07", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
+    "departments": ["국제한국어전공", "영어학과", "일어일문학과", "글로벌항공서비스학과", "문화콘텐츠학과", "인터내셔널학부"], 
     "facilities": [] 
   },
   { 
@@ -274,8 +274,8 @@
     "abbr": "C09", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
-    "facilities": [] 
+    "departments": ["교육학과", "국어교육과", "영어교육과", "수학교육과", "역사교육과", "지리교육과", "유아교육과", "체육교육과"], 
+    "facilities": ["교원양성지원센터"] 
   },
   { 
     "id": "C10", 
@@ -304,7 +304,7 @@
     "abbr": "C12", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
+    "departments": ["문헌정보학과", "심리학과", "사회복지학과", "사회과학대학자율학부"], 
     "facilities": [] 
   },
   { 
@@ -314,7 +314,7 @@
     "abbr": "C13", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
+    "departments": ["경영학과", "회계세무학과"], 
     "facilities": [] 
   },
 
@@ -336,7 +336,7 @@
     "abbr": "D02", 
     "center_coords": { "lat": 35.9123, "lng": 128.8078 }, 
     "entrance_coords": { "lat": 35.9125, "lng": 128.8080 }, 
-    "departments": ["컴퓨터소프트웨어학부", "인공지능학과"], 
+    "departments": ["컴퓨터소프트웨어학부", "AI빅데이터공학과", "소프트웨어융합학과", "기계공학과", "미래자동차공학과", "반도체전자공학과", "로봇공학과", "건축학과", "첨단산업학부"], 
     "facilities": ["매점", "과사무실"] 
   },
   { 
@@ -366,7 +366,7 @@
     "abbr": "D05", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
+    "departments": ["보건관리학과", "의료재활학과", "방사선학과"], 
     "facilities": [] 
   },
   { 
@@ -406,7 +406,7 @@
     "abbr": "D09", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
+    "departments": ["외식조리제과제빵학과", "제약공학과", "반려동물보건학과", "소방방재학과"], 
     "facilities": [] 
   },
   { 
@@ -426,7 +426,7 @@
     "abbr": "D11", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
+    "departments": ["식품영양학과", "아동학과", "패션디자인과", "금속주얼리디자인과"], 
     "facilities": [] 
   },
   { 
@@ -446,7 +446,7 @@
     "abbr": "D15", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
+    "departments": ["시각디자인학과", "산업디자인학과", "뉴미디어&게임디자인과", "웹툰애니창작과"], 
     "facilities": [] 
   },
   { 
@@ -466,7 +466,7 @@
     "abbr": "D17", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
+    "departments": ["음악학과", "실용음악과", "예술치료학과"], 
     "facilities": [] 
   },
   { 
@@ -476,7 +476,7 @@
     "abbr": "D18", 
     "center_coords": { "lat": 0.0, "lng": 0.0 }, 
     "entrance_coords": { "lat": 0.0, "lng": 0.0 }, 
-    "departments": [], 
+    "departments": ["호텔관광학과", "군사학과"], 
     "facilities": [] 
   },
   { 
