@@ -1,108 +1,108 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+html, body { /* html과 body 요소의 기본 여백과 높이를 초기화 */
+    margin: 0; /* 브라우저 기본 바깥 여백 제거 */
+    padding: 0; /* 브라우저 기본 안쪽 여백 제거 */
+    height: 100%; /* 문서 높이를 화면 전체로 확장 */
 }
 
-body {
-    font-family: Arial, sans-serif;
+body { /* 본문 텍스트를 기본 폰트로 지정 */
+    font-family: Arial, sans-serif; /* 웹 안전 폰트 Arial 사용 */
 }
 
-#search-container {
-    position: absolute;
-    z-index: 10;
-    top: 16px;
-    left: 16px;
-    width: min(360px, calc(100% - 32px));
-    background: rgba(255, 255, 255, 0.95);
-    padding: 14px;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+#search-container { /* 검색 패널의 외형 및 위치 지정 */
+    position: absolute; /* 지도를 덮어 쓰는 형태로 절대 위치 지정 */
+    z-index: 10; /* 지도의 위쪽에 표시되도록 설정 */
+    top: 16px; /* 상단에서 16px 떨어진 위치 */
+    left: 16px; /* 왼쪽에서 16px 떨어진 위치 */
+    width: min(360px, calc(100% - 32px)); /* 화면 너비에 따라 최대 360px로 제한 */
+    background: rgba(255, 255, 255, 0.95); /* 반투명 흰색 배경 */
+    padding: 14px; /* 내부 여백 14px */
+    border-radius: 12px; /* 둥근 모서리 */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); /* 부드러운 그림자 */
 }
 
-#search-box {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 10px;
+#search-box { /* 검색 입력과 버튼을 가로로 배치 */
+    display: flex; /* 플렉스 박스로 수평 정렬 */
+    gap: 8px; /* 두 요소 사이 간격 8px */
+    margin-bottom: 10px; /* 아래쪽 여백 */
 }
 
-#search-input {
-    flex: 1;
-    padding: 10px 12px;
-    border: 1px solid #d1d5db;
-    border-radius: 8px;
-    outline: none;
-    font-size: 14px;
-    box-sizing: border-box;
+#search-input { /* 검색 입력 필드 스타일 */
+    flex: 1; /* 가능한 너비를 모두 차지 */
+    padding: 10px 12px; /* 안쪽 여백 */
+    border: 1px solid #d1d5db; /* 연한 회색 테두리 */
+    border-radius: 8px; /* 둥근 모서리 */
+    outline: none; /* 포커스 시 브라우저 기본 윤곽선 제거 */
+    font-size: 14px; /* 입력 텍스트 크기 */
+    box-sizing: border-box; /* 패딩 및 테두리 포함하여 크기 계산 */
 }
 
-#search-button {
-    padding: 10px 16px;
-    border: none;
-    background: #3d5afe;
-    color: #fff;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: 600;
+#search-button { /* 검색 버튼 스타일 */
+    padding: 10px 16px; /* 버튼 내부 여백 */
+    border: none; /* 기본 테두리 제거 */
+    background: #3d5afe; /* 파란색 배경 */
+    color: #fff; /* 버튼 텍스트 흰색 */
+    border-radius: 8px; /* 둥근 모서리 */
+    cursor: pointer; /* 클릭 가능한 커서 */
+    font-weight: 600; /* 약간 굵은 텍스트 */
 }
 
-#search-button:hover {
-    background: #304ffe;
+#search-button:hover { /* 버튼 호버 상태 */
+    background: #304ffe; /* 더 진한 파란색으로 변경 */
 }
 
-#search-results {
-    margin: 10px 0 0;
-    padding: 0;
-    list-style: none;
-    max-height: 240px;
-    overflow-y: auto;
+#search-results { /* 검색 결과 목록 스타일 */
+    margin: 10px 0 0; /* 위쪽 여백 10px */
+    padding: 0; /* 기본 리스트 패딩 제거 */
+    list-style: none; /* 리스트 점 제거 */
+    max-height: 240px; /* 최대 높이 제한 */
+    overflow-y: auto; /* 세로 스크롤 허용 */
 }
 
-.search-item {
-    padding: 10px;
-    border-bottom: 1px solid #e5e7eb;
-    cursor: pointer;
+.search-item { /* 개별 검색 항목 스타일 */
+    padding: 10px; /* 항목 내부 여백 */
+    border-bottom: 1px solid #e5e7eb; /* 항목 간 구분선 */
+    cursor: pointer; /* 클릭 가능한 커서 */
 }
 
-.search-item:hover {
-    background: #f3f4f6;
+.search-item:hover { /* 항목 호버 상태 */
+    background: #f3f4f6; /* 연한 회색 배경 */
 }
 
-.search-title {
-    font-weight: 700;
-    margin-bottom: 4px;
+.search-title { /* 검색 결과 제목 스타일 */
+    font-weight: 700; /* 진하게 표시 */
+    margin-bottom: 4px; /* 아래쪽 여백 */
 }
 
-.search-detail {
-    font-size: 13px;
-    color: #4b5563;
-    line-height: 1.4;
+.search-detail { /* 검색 결과 부가 정보 스타일 */
+    font-size: 13px; /* 작은 글자 크기 */
+    color: #4b5563; /* 차분한 회색 텍스트 */
+    line-height: 1.4; /* 행간 조절 */
 }
 
-#map {
-    width: 100%;
-    height: 100vh;
+#map { /* 지도 컨테이너 크기 설정 */
+    width: 100%; /* 가로 전체 */
+    height: 100vh; /* 화면 전체 높이 */
 }
 
-/* 🚀 토글 버튼 ON 상태일 때 파란색 배경으로 변경 (수정됨) */
-#use-myloc-start:checked + .slider { 
-    background-color: #3d5afe !important; /* !important를 추가해서 강제 적용! */
+/* 토글 버튼이 선택된 경우 배경색 변경 */
+#use-myloc-start:checked + .slider { /* 체크박스가 체크되면 슬라이더 배경 변경 */
+    background-color: #3d5afe !important; /* 강제로 파란색을 적용 */
 }
 
-/* 스위치 동그라미가 오른쪽으로 이동하는 애니메이션 */
-#use-myloc-start:checked + .slider:before { 
-    transform: translateX(22px); 
+/* 슬라이더 버튼 이동 애니메이션 */
+#use-myloc-start:checked + .slider:before { /* 스위치가 켜졌을 때 원을 오른쪽으로 이동 */
+    transform: translateX(22px); /* 22px 이동 */
 }
 
-/* 스위치 기본 디자인 (아직 추가 안 했다면 이것도 꼭 같이 넣어줘) */
-.slider:before {
-    position: absolute; 
-    content: ""; 
-    height: 16px; 
-    width: 16px; 
-    left: 3px; 
-    bottom: 3px;
-    background-color: white; 
-    transition: .4s; 
-    border-radius: 50%;
+/* 스위치 원 모양 기본 디자인 */
+.slider:before { /* 슬라이더 내부의 동그란 버튼 */
+    position: absolute; /* 부모 요소 내부 절대 위치 */
+    content: ""; /* 가상 요소 생성 */
+    height: 16px; /* 세로 크기 */
+    width: 16px; /* 가로 크기 */
+    left: 3px; /* 왼쪽에서 3px */
+    bottom: 3px; /* 아래쪽에서 3px */
+    background-color: white; /* 버튼 배경을 흰색으로 */
+    transition: .4s; /* 동작이 부드럽게 이동하도록 */
+    border-radius: 50%; /* 완전한 원형 */
 }
